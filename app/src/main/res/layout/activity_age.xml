@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/inputID2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="56sp"
+        android:hint="@string/please_enter_age"/>
+
+
+    <Button
+        android:id="@+id/btnCalculate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="btnCalculateClicked"
+        android:text="@string/calculate" />
+
+    <TextView
+        android:id="@+id/calculatedValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal" />
+
+    <ListView
+        android:id="@+id/listCalculated"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

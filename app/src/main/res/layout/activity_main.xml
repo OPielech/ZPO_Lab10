@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="btnAddClicked"
+        android:text="Add to data base" />
+
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="btnDeleteClicked"
+        android:text="Delete from data base" />
+
+    <Button
+        android:id="@+id/btnAge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="btnAgeClicked"
+        android:text="Show age" />
+
+    <Button
+        android:id="@+id/btnShow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="btnShowClicked"
+        android:text="Show data base" />
+
+    <ListView
+        android:id="@+id/listDataBase"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

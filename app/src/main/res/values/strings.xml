@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ZPO_Lab10</string>
+    <string name="please_enter_year_of_birth">Please enter year of birth</string>
+    <string name="please_enter_last_name">Please enter last name</string>
+    <string name="please_enter_first_name">Please enter first name</string>
+    <string name="please_enter_id">Please enter ID</string>
+    <string name="delete_from_data_base">Delete from data base</string>
+    <string name="please_enter_age">Please enter age</string>
+    <string name="calculate">Calculate</string>
+    <string name="add_to_data_base">Add to data base</string>
+</resources>
